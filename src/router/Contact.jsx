@@ -7,12 +7,12 @@ export default function Contact() {
         <div class="links-button-wrapper">
           <button
             className="btn"
-            style={{backgroundColor:'black'}}
+            style={{ cursor:'pointer',  color: '#62e0d9',  backgroundColor: '#1e2a47'}}
             onClick={() =>
               window.open("./assets/Khatnaa Batbold resume.pdf", "_blank")
             }
           >
-            Download CV
+            Resume
           </button>
 
           <p
@@ -23,7 +23,7 @@ export default function Contact() {
               lineHeight: 1.1,
             }}
           >
-            Email me at khatnaa24batbold@gmail.com
+            Get in touch with me at khatnaa24batbold@gmail.com
           </p>
         </div>
       </div>
