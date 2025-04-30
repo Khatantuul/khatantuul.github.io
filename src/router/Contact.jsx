@@ -7,6 +7,7 @@ export default function Contact() {
         <div class="links-button-wrapper">
           <button
             className="btn"
+            style={{backgroundColor:'black'}}
             onClick={() =>
               window.open("./assets/Khatantuul Batbold resume.pdf", "_blank")
             }
