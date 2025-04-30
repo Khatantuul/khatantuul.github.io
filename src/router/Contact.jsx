@@ -9,7 +9,7 @@ export default function Contact() {
             className="btn"
             style={{backgroundColor:'black'}}
             onClick={() =>
-              window.open("./assets/Khatantuul Batbold resume.pdf", "_blank")
+              window.open("./assets/Khatnaa Batbold resume.pdf", "_blank")
             }
           >
             Download CV
